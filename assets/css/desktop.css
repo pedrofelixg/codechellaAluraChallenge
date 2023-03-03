@@ -1,0 +1,36 @@
+@import url(/assets/css/base.css);
+
+.cabecalho__principal{
+    background-color: var(--azul-escuro-verao);
+    font-family: var(--textos-gerais);
+    font-style: none;
+    display: flex;
+    align-items: center;
+    padding: 28px 120px;
+    justify-content: space-between;
+}
+
+.menu__lista{
+    display: flex;
+    gap: 32px;
+}
+
+.menu__itens a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.cabecalho__banner{
+    background: url(/img/verao_imagens/banner_verao.jpeg);
+    background-position: center;
+    background-size: 100vw;
+    padding: 12em 14em;
+}
+
+.cabecalho__titulo{
+    font-family: var(--titulos);
+    color: var(--cinza-fonte);
+    font-size: 64px;
+    text-align: center;
+}
