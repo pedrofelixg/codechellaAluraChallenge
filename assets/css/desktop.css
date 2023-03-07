@@ -1,5 +1,11 @@
 @import url(/assets/css/base.css);
 
+body{
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+}
+
+/*cabecalho*/
+
 .cabecalho__principal{
     background-color: var(--azul-escuro-verao);
     font-family: var(--textos-gerais);
@@ -33,4 +39,115 @@
     color: var(--cinza-fonte);
     font-size: 64px;
     text-align: center;
+}
+
+/* chamada do cabecalho + imagem */
+.cabecalho__chamada{
+    display: flex;
+    padding: 65px 121.5px;
+    align-items: center;
+}
+
+.chamada__img{
+    background-image: url(/img/verao_imagens/call-illustration.jfif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 2000px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+.chamada__texto{
+    font-family: var(--textos-gerais);
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 1.5rem;
+}
+
+.texto__titulo{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.botao__compra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botao__compra a{
+    background-color: var(--azul-escuro-verao);
+    padding: 8px 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+    box-shadow: 3px 4px 0 2px rgba(0, 0, 0, 0.8)
+}
+
+.botao__compra a:hover{
+    background-color: var(--azul-hoover-verao);
+}
+
+.botao__compra img{
+    padding-left: 16px;
+}
+
+/* Atrações */
+.atracoes__titulo{
+    font-family: var(--titulos);
+    font-size: 64px;
+    text-align: center;
+    margin: 32px 0;
+}
+
+/* Atrações Detalhes */
+.atracoes__subtitulo{
+    font-family: var(--titulos);
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    background-color: var(--mostarda-verao);
+}
+
+/* rodapé */
+.rodape__banner{
+    background-image: url(/img/verao_imagens/rodape__baner.jfif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    mix-blend-mode: multiply;
+    height: 338px;
+}
+
+.rodape__logo{
+    width: 250px;
+    margin-bottom: 16px;
+}
+
+.rodape__detalhes{
+    font-family: var(--textos-gerais);
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 76px 120px;
+    line-height: 40px;
+    background-color: var(--mostarda-pastel-verao);
+}
+
+.rodape__detalhes a{
+    text-decoration: none;
+    color: var(--cinza-fonte);
+}
+
+.rodape__detalhes p{
+    margin-bottom: 16px;
 }
