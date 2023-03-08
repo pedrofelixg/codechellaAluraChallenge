@@ -24,7 +24,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **CodeChella**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         | _ainda vai ter_
+| :rocket: URL         | https://codechella-alura-challenge.vercel.app/
 | :fire: Desafio     | Alura Chalenge 6ª Edição
 
 ----------------------------------------------
@@ -37,15 +37,20 @@ A ideia é colocar em prática o conhecimento adquirido na Alura, implementar so
 ## **Detalhes das Semanas**
 `SEMANA 01`
 > Desenvolvimento do site, com páginas, principais e subpáginas, com HTML e CSS, com foco em responsividade para telas (mobile, tablet e desktop), preparação de ambiente para alternar cores (modo verão e inverno), HTML limpo para refatoração correta, foco no método B.E.M, a hierarquia de páginas é:<br>
-- Página Principal (que vai conter todos os direcionamentos necessários);
-- A Experiência (primeira subpágina);
-- Mapa de Setores;
-- Página de Informações Gerais;
-- Formulário de Compra dos Ingressos.
+  - Página Principal (que vai conter todos os direcionamentos necessários);
+  - A Experiência (primeira subpágina);
+  - Mapa de Setores;
+  - Página de Informações Gerais;
+  - Formulário de Compra dos Ingressos.
 <br>
 
 `SEMANA 02`
+> Foco na responsividade do site, para ajustar as views de tablets e smartphones<br>
+  - Modelo das Medias Querys;
+  - Ajuste de proporção das imagens;
+  - Resposividade das Imagens com SRCSET, propriedade HTML.
 <br>
+
 `SEMANA 03`
 <br>
 `SEMANA 04`
