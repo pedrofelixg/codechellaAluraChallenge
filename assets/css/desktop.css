@@ -109,6 +109,8 @@ body{
 
 /* Atrações Detalhes */
 .atracoes__subtitulo{
+    width: fit-content;
+    margin: auto;
     font-family: var(--titulos);
     font-size: 48px;
     text-align: center;
@@ -174,15 +176,14 @@ body{
 
 .rodape__detalhes{
     font-family: var(--textos-gerais);
+    color: var(--cinza-fonte);
     font-size: 24px;
     font-weight: 500;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: space-between;
     padding: 76px 120px;
     line-height: 40px;
-    height: 232px;
     background-color: var(--mostarda-pastel-verao);
 }
 
