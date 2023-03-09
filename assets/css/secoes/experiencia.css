@@ -8,7 +8,7 @@
     mix-blend-mode: multiply;
 }
 .cabecalho__chamada{
-    padding: 48px 95px;
+    padding: 64px 121.5px;
 }
 
 .img-first{
@@ -19,7 +19,7 @@
 .img-second{
     background-image: url(/img/verao_imagens/2\ -\ A\ Experiência2.png);
     order: 2;
-    width: 180em;
+    width: 160em;
 }
 
 .img-third{
@@ -29,4 +29,8 @@
 
 .chamada__texto{
     text-align: left;
+}
+
+.text-alt{
+    text-align: right;
 }
