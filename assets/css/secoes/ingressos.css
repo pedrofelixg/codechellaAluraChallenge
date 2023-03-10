@@ -1,0 +1,79 @@
+@import url(/assets/css/base.css);
+@import url(/assets/css/desktop.css);
+
+body{
+    color: var(--cinza-fonte);
+}
+
+.cabecalho__banner{
+    background-image: url(/img/verao_imagens/5\ -\ Banner\ -\ garanta\ seu\ ingresso.png);
+    background-size: 110%;
+    mix-blend-mode: multiply;
+}
+
+.formulario__titulo{
+    font-family: var(--titulos);
+    text-align: center;
+    font-size: 48px;
+    line-height: 62px;
+    padding: 48px 120px;
+}
+
+/* formulario */
+
+.formulario__container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 322.5px;
+}
+
+.text__label{
+    font-family: var(--textos-gerais);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.input-form{
+    border-style: none;
+    font-family: var(--textos-gerais);
+    padding: 10px;
+    margin: 8px 0 32px 0;
+    color: var(--cinza-fonte);
+    font-size: 20px;
+}
+
+.grupo__flex{
+    display: grid;
+    grid-template-areas:
+        "selectT dataT"
+        "inputS inputD ";
+    column-gap: 24px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.select__label{
+    grid-area: selectT;
+}
+
+.select__input{
+    grid-area: inputS;
+}
+
+.nascimento__label{
+    grid-area: dataT;
+}
+
+.nascimento__input{
+    grid-area: inputD;
+}
+
+
+.botao__compra{
+    font-family: var(--textos-gerais);
+    margin: 0 0 48px 0;
+    font-size: 22px;
+}
+
+.botao__compra a:hover{
+    background-color: var(--azul-hoover-verao);
+}

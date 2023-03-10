@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/desktop.css">
+    <link rel="stylesheet" href="/assets/css/secoes/ingressos.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,6 +40,37 @@
             <h1 class="cabecalho__titulo">Garanta seu Ingresso</h1>
         </section>
     </header>
+
+    <main class="formulario__ingresso">
+        <h2 class="formulario__titulo">Preencha o Formulário à Seguir:</h2>
+
+        <span class="formulario__container">
+            <label class="text__label nome__label" for="nome-completo">Nome Completo:</label>
+            <input type="text" class="input-form nome__input" id="nome-completo">
+
+            <label class="text__label email__label" for="email">Email:</label>
+            <input type="email" class="input-form email__input" id="email" placeholder="example@email.com">
+
+            <div class="grupo__flex">
+                <label class="text__label select__label" for="select">Tipo de Ingresso</label>
+                <select class="input-form select__input" id="select">
+                    <option selected>Tipo de Ingresso</option>
+                    <option value="1">Pista Premium</option>
+                    <option value="2">Pista Comum</option>
+                    <option value="3">Cadeiras Térreo</option>
+                    <option value="4">Cadeiras Superiores</option>
+                    <option value="5">Meia-Entrada Social</option>
+                </select>
+
+                <label class="text__label nascimento__label" for="nascimento">Data de Nascimento:</label>
+                <input type="date" class="input-form nascimento__input" id="nascimento">
+            </div>
+        </span>
+
+        <p class="botao__compra">
+            <a href="#">Avançar! <i class="fa-solid fa-arrow-right"></i></a>
+        </p>
+    </main>
     
     <footer class="rodape__container">
         <div class="rodape__detalhes">
