@@ -1,0 +1,59 @@
+@import url(/assets/css/base.css);
+@import url(/assets/css/desktop.css);
+
+.cabecalho__banner{
+    background-image: url(/img/verao_imagens/6\ -\ Banner\ -\ seu\ ingresso\ está\ aqui.png);
+    mix-blend-mode: multiply;
+    background-position: center;
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+.ingresso__container{
+    color: var(--cinza-fonte);
+    text-align: center;
+    padding: 64px 324px;
+}
+
+.ingresso__titulo{
+    font-family: var(--textos-gerais);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.ingresso__card{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ingresso__logotipos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingresso__logo-cinza{
+    width: 116.95px;
+    height: 32px;
+}
+
+.ingresso__dados{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.ingresso__qrcode{
+    margin-top: 32px;
+}
+
+.ingresso__lista-item{
+    font-family: var(--textos-gerais);
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}

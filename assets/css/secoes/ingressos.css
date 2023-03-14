@@ -56,7 +56,7 @@ body{
 }
 
 .select__input{
-    grid-area: inputS;
+    grid-area: inputS; 
 }
 
 .nascimento__label{
