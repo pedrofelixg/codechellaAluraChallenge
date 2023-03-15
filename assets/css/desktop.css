@@ -171,20 +171,24 @@ body{
 
 .rodape__logo{
     width: 250px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
-.rodape__detalhes{
+.rodape__container{
+    display: flex;
+    background-color: var(--mostarda-pastel-verao);
     font-family: var(--textos-gerais);
     color: var(--cinza-fonte);
     font-size: 24px;
     font-weight: 500;
-    display: flex;
-    flex-flow: column wrap;
     justify-content: space-between;
+    align-items: center;
     padding: 76px 120px;
     line-height: 40px;
-    background-color: var(--mostarda-pastel-verao);
+}
+
+.rodape__detalhes{
+    flex-flow: column wrap;
 }
 
 .rodape__detalhes a{
