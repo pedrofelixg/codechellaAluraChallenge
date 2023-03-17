@@ -1,0 +1,102 @@
+@import url(../base.css);
+@import url(../desktop.css);
+
+body{
+    color: var(--cinza-fonte);
+}
+
+.cabecalho__banner{
+    background-image: url(/img/verao_imagens/4\ -\ Banner\ -\ infos\ gerais.png);
+    background-size: 115%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.perguntas__container{
+    padding: 48px 222px;
+}
+
+.perguntas__titulo{
+    font-family: var(--titulos);
+    text-align: center;
+    font-size: 48px;
+    line-height: 62.4px;
+    margin-bottom: 36px;
+}
+
+/* Menu Accordion */
+
+.perguntas__lista{
+    font-family: var(--textos-gerais);
+}
+
+input{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.perguntas__item{
+    overflow: hidden;
+    margin: 0 auto;
+    /* padding: 48px 0; */
+}
+
+.accordion{
+    overflow: hidden;
+    width: 100%;
+}
+
+.accordion__label{
+    font-size: 32px;
+    font-weight: 700;
+    background-color: var(--azul-escuro-verao);
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    -webkit-box-pack: justify;
+}
+
+.accordion__label:hover{
+    background-color: var(azul-claro-verao);
+}
+
+.accordion__label::after {
+    content: url("data:image/svg+xml;utf8,<svg fill='white' height='38' viewBox='0 0 32 32' width='32' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.accordion__content{
+    font-size: 20px;
+    line-height: 40px;
+    background-color: var(--azul-claro-verao);
+    padding: 16px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 16px;
+    /* max-height: 0; */
+}
+
+.accordion__content a{
+    color: var(--cinza-fonte);
+}
+
+.accordion__content p{
+    margin: 0;
+}
+
+/* input:checked + .accordion__label::after{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+} */
+
+input:checked ~ .accordion__content {
+    max-height: 100vh;
+    padding: 16px;
+}
