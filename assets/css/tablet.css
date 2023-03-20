@@ -2,6 +2,7 @@
 @import url(/assets/css/desktop.css);
 @import url(/assets/css/secoes/experiencia.css);
 @import url(/assets/css/secoes/setores.css);
+@import url(/assets/css/secoes/informacoes.css);
 
 /* para o desktop */
 @media (max-width: 1410px) {
@@ -135,5 +136,16 @@
 
     .image__third{
         margin: auto;
+    }
+
+    /* informações */
+
+    .informacoes__banner{
+        background-image: url(/img/verao_imagens/tablet/4\ -Banner\ -\ infos\ gerais.png);
+        background-size: 100%;
+    }
+
+    .perguntas__container{
+        padding: 48px 60px;
     }
 }

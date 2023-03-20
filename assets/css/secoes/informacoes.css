@@ -5,7 +5,7 @@ body{
     color: var(--cinza-fonte);
 }
 
-.cabecalho__banner{
+.informacoes__banner{
     background-image: url(/img/verao_imagens/4\ -\ Banner\ -\ infos\ gerais.png);
     background-size: 115%;
     background-position: center;
@@ -90,11 +90,6 @@ input{
 .accordion__content p{
     margin: 0;
 }
-
-/* input:checked + .accordion__label::after{
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-} */
 
 input:checked ~ .accordion__content {
     max-height: 100vh;
