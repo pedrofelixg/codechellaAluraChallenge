@@ -1,7 +1,7 @@
 @import url(/assets/css/base.css);
 @import url(/assets/css/desktop.css);
 
-.cabecalho__banner{
+.setores__banner{
     background-image: url(/img/verao_imagens/3\ -\ Banner\ -\ Mapa\ de\ setores.png);
     background-position: center;
     mix-blend-mode: multiply;
