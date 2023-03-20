@@ -1,8 +1,12 @@
 @import url(/assets/css/base.css);
 @import url(/assets/css/desktop.css);
+@import url(/assets/css/secoes/experiencia.css);
 
 /* para o desktop */
-@media (max-width: 768px) {
+@media (max-width: 1410px) {
+    /* a partir de 1410px para baixo fica tablet */
+
+    /* home */
     .cabecalho__principal{
         flex-direction: column;
         padding: 32px 60px;
@@ -48,8 +52,22 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding: 48px 32px;
+        padding: 48px 42px;
         align-items: center;
+    }
+
+    .atracoes__itens ul{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .fourt__sabado{
+        padding: 0 62px;
+    }
+
+    .lista__third, .lista__fourt{
+        column-gap: 32px;
     }
 
     .rodape__banner{
@@ -65,5 +83,27 @@
 
     .rodape__aviso{
         margin-top: 32px;
+    }
+
+    /* secao experiencia*/
+    .experiencia__banner{
+        background-image: url(/img/verao_imagens/tablet/2\ -\ Banner\ -\ A\ Experiência.png);
+    }
+
+    .img-first{
+        background-image: url(/img/verao_imagens/tablet/2\ -\ A\ Experiência1.png);
+    }
+
+    .img-second{
+        background-image: url(/img/verao_imagens/tablet/2\ -\ A\ experiência2.png);
+        order: -1;
+    }
+
+    .img-third{
+        background-image: url(/img/verao_imagens/tablet/2\ -\ A\ experiência3.png);
+    }
+
+    .chamada__texto{
+        text-align: center;
     }
 }
