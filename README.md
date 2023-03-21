@@ -56,3 +56,8 @@ A ideia é colocar em prática o conhecimento adquirido na Alura, implementar so
 `SEMANA 04`
 
 ## **Prévia do Site**
+### **TEMAS VERÃO**
+
+**Desktop**
+
+![previa do site](/img/previews/desktop_verao.gif#vitrinedev)
