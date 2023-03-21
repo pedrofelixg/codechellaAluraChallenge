@@ -158,14 +158,11 @@
 
     .formulario__titulo{
         padding: 48px 60px 0;
+        margin-bottom: 48px;
     }
 
     .formulario__container{
         padding: 0 60px;
-    }
-
-    .input-form:last-child{
-        margin: 8px 0 12px 0;
     }
 
     .grupo__flex{
