@@ -32,7 +32,7 @@ body{
     margin: 0 auto;
 }
 
-input{
+.input-accordion{
     position: absolute;
     opacity: 0;
     z-index: -1;
@@ -91,7 +91,7 @@ input{
     margin: 0;
 }
 
-input:checked ~ .accordion__content {
+.input-accordion:checked ~ .accordion__content {
     max-height: 100vh;
     padding: 16px;
 }
