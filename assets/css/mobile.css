@@ -40,11 +40,12 @@
     }
 
     .atracoes__titulo{
-        margin: 16px 0 32px 0;
+        margin: 16px 0 98px 0;
     }
 
     .atracoes__subtitulo{
         font-size: 32px;
+        margin-top: 64px;
     }
     
     .atracoes__itens{
