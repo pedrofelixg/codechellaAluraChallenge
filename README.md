@@ -60,6 +60,15 @@ A ideia é colocar em prática o conhecimento adquirido na Alura, implementar so
 `SEMANA 04`
 
 ## **Prévia do Site**
+
 ### **TEMAS VERÃO**
+<div align="center">
 
 **Desktop**
+
+![preview do desktop](/img/previews/preview-home-verao-desktop.png)
+
+**Tablet**
+
+![preview do site em formato tablet](/img/previews/tablet-verao-preview.gif)
+</div>
