@@ -52,12 +52,14 @@ A ideia é colocar em prática o conhecimento adquirido na Alura, implementar so
 <br>
 
 `SEMANA 03`
+> Foco em alternância de temas verão (light) e boreal (dark) a manipulação do DOM com JAVASCRIPT <br>
+- Alteração de atributos do D.O.M com Javascript;
+- Foco em acessibilidade e conforto da visualização da página.
 <br>
+
 `SEMANA 04`
 
 ## **Prévia do Site**
 ### **TEMAS VERÃO**
 
 **Desktop**
-
-![previa do site](/img/previews/desktop_verao.gif#vitrinedev)

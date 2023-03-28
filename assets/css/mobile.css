@@ -1,0 +1,82 @@
+@import url(/assets/css/base.css);
+@import url(/assets/css/desktop.css);
+@import url(/assets/css/secoes/experiencia.css);
+@import url(/assets/css/secoes/setores.css);
+@import url(/assets/css/secoes/informacoes.css);
+@import url(/assets/css/secoes/ingressos.css);
+@import url(/assets/css/secoes/ingressoComprado.css);
+
+@media (max-width: 767px){
+    /* tela home */
+    .cabecalho__principal{
+        padding: 32px 24px;
+    }
+
+    .menu__lista{
+        flex-direction: column;
+    }
+
+    .cabecalho__banner{
+        background-image: url(/img/verao_imagens/mobile/1\ -\ Banner\ -\ Homepage.png);
+        padding: 92px 25px;
+    }
+
+    .cabecalho__titulo{
+        font-size: 32px;
+    }
+
+    .cabecalho__chamada{
+        padding: 32px 24px;
+    }
+
+    .chamada__img{
+        background-image: url(/img/verao_imagens/mobile/1\ -\ Homepage1.png);
+        width: 292px;
+        height: 361px;
+    }
+
+    .chamada__texto{
+        padding: 0;
+    }
+
+    .atracoes__titulo{
+        margin: 16px 0 32px 0;
+    }
+
+    .atracoes__subtitulo{
+        font-size: 32px;
+    }
+    
+    .atracoes__itens{
+        padding: 48px 24px;
+    }
+
+    .rodape__banner{
+        background-image: url(/img/verao_imagens/mobile/1\ -\ Homepage2.png);
+    }
+
+    .rodape__container{
+        padding: 24px;
+        font-size: 20px;
+    }
+
+    .rodape__redes-sociais{
+        padding: 0 48px;
+    }
+    
+    /* a experiencia */
+
+    .experiencia__banner{
+        background-image: url(/img/verao_imagens/mobile/2\ -\ Banner\ -\ A\ Experiência.png);
+    }
+    
+    /* mapa de setores */
+
+
+    /* informacoes */
+
+
+    /* ingresso comprado */
+
+
+}
